@@ -1,4 +1,17 @@
 ![background image](background.png) 
+<!--
+</br></br>
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+</br></br>
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+</br></br>
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+<img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/img/aboutus1.jpg" height="160" width="300">
+-->
 
 # HolidaysAfterPandemic
 
