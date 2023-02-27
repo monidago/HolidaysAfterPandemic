@@ -3,10 +3,13 @@
 </br></br>
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img1.png" height="160" width="300">
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img2.png" height="160" width="300">
+</br></br>
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img3.png" height="160" width="300">
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img4.png" height="160" width="300">
+</br></br>
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img5.png" height="160" width="300">
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img6.png" height="160" width="300">
+</br></br>
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img7.png" height="160" width="300">
 <img align="center" src="https://github.com/monartlondon/HolidaysAfterPandemic/blob/main/HolidaysAfterPandemicIMGGit/img8.png" height="160" width="300">
 
