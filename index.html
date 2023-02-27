@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="UXFinalProject">
+        <meta name="keywords" content="HTML,CSS,JS">
+        <meta name="author" content="Monica D'Agosto"> 
+        <script src="https://kit.fontawesome.com/d97b8c82d1.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+        <title>Escapes</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+   
+    <body>
+        <!--========== navbar ==========-->
+        <div>
+            <input type="checkbox" class="checkbox" id="checkbox" hidden>
+    
+            <!--========== sidebar ==========-->
+            <div class="sidebar">
+                <label for="checkbox">
+                    <div class="sidebarmenu">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </label>
+               
+                <ul class="socialmedia">
+                    <li>
+                        <a href="https://www.facebook.com/" target="blank" class="socialmedialist"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="blank" class="socialmedialist"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="blank" class="socialmedialist"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+           
+            <!--========== navbar ==========-->
+             <nav class="navbar">
+                <div class="navbar-header">
+                    <h1 class="navbarheading">escapes</h1>
+    
+                    <form class="navbarsearch">
+                        <input type="text" class="navbarsearchinput" placeholder="Search...">
+                        <button class="navbarsearchbtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+    
+                <ul class="navbarlist">
+                    <li class="navbarpos">
+                        <a href="index.html" class="navbarlink">home</a>
+                    </li>
+                    <li class="navbarpos">
+                        <a href="#aboutus" class="navbarlink">about us</a>
+                    </li>
+                    <li class="navbarpos">
+                        <a href="#escapes" class="navbarlink">escapes</a>
+                    </li>
+                    <li class="navbarpos">
+                        <a href="#experiencers" class="navbarlink">experiencers</a>
+                    </li>
+                    <li class="navbarpos">
+                        <a href="contact.html" class="navbarlink">contact</a>
+                    </li>
+                </ul>
+            </nav> 
+        </div>   
+
+        <!--========== header ==========-->
+         <header class="header">
+            <div class="main">
+                <h1 class="mainheading">Escapes</h1>
+                <p class="mainparagraph">Life After Pandemic</p>
+                <a href="escapes.html"><button class="mainbutton">Check Out</button></a>
+            </div>
+        </header> 
+    
+        <!--========== about us ==========-->
+        <section class="aboutus" id="aboutus">
+            <div class="aboutuscontent">
+                <h1 class="aboutusheading">About Us</h1>
+                    <div>
+                    <div class="smalllines"></div>
+                    <div class="biglines"></div>
+                </div>
+                <h3 class="smallheading">Escapes</h3>
+                <p class="aboutusparagraph">
+                    <!-- Article taken from https://www.skyscanner.com.au/news/why-taking-holidays-is-good-for-your-health -->
+                    Numerous studies have found 
+                    that taking regular holidays lessens your risk of 
+                    dying from any cause other than old age and minimises 
+                    the risk of heart disease. <b>Taking regular breaks 
+                    also helps reduce stress</b>&#044; which can lead to a variety 
+                    of health problems like obesity&#044; depression and anxiety.</p>
+                    <a href="aboutus.html" ><button class="aboutusbutton">
+                     More
+                    <i class="fas fa-angle-double-right btnarrow"></i>
+                </button></a> 
+            </div>
+    
+            <div class="aboutusimages">
+                <!-- image 1 downloaded from https://stocksnap.io/photo/woods-forest-6NUBBTNORQ -->
+                <img src="img/aboutus1.jpg" class="image image1" alt="forest trees"> 
+                <!-- image 2 downloaded from https://stocksnap.io/photo/lake-mountains-VZBJUVPO25 -->
+                <img src="img/aboutus2.jpg" class="image image2" alt="mountain scenery">
+                <!-- image 3 downloaded from https://stocksnap.io/photo/fire-dark-46KA49PBET -->
+                <img src="img/aboutus3.jpg" class="image image3" alt="small fire">
+                <!-- image 4 downloaded from https://stocksnap.io/photo/landscape-mountain-B028VXG7BC -->
+                <img src="img/aboutus4.jpg" class="image image4" alt="lake scenery">
+            </div>
+        </section> 
+    
+        <!--=========== escapes ==========-->
+        <section class="escapes" id="escapes">
+            <div class="escapeheader">
+                <h1 class="escapeheading">Escapes</h1>
+                <div class="lines">
+                    <div class="smalllines"></div>
+                    <div class="biglines"></div>
+                </div>
+            </div>
+    
+            <div class="escapescardswrapper">
+                <div class="escapecard">
+                    <img src="img/escape1.jpg" class="escapeimg" alt="wild horse scenery">
+                    <div class="escapecardcontent">
+                        <h4 class="escapecardheading">Horse Riding Iceland</h4>
+                        <p class="escapecardparagraph">1 Week all inclusive.</p>
+                        <p class="escapeprice">&#163; 700.00</p>
+                        <a href="escapes.html"><button class="escapecardbutton">
+                            Find Out More
+                            <i class="fas fa-angle-double-right btnarrow"></i>
+                        </button></a>
+                    </div>
+                </div>
+                <div class="escapecard">
+                    <img src="img/escape2.jpg" class="escapeimg" alt="seaside scenery">
+                    <div class="escapecardcontent">
+                        <h4 class="escapecardheading">Surfing in Australia</h4>
+                        <p class="escapecardparagraph">1 Week all inclusive.</p>
+                        <p class="escapeprice">&#163; 1500.00</p>
+                        <a href="escapes.html"><button class="escapecardbutton">
+                            Find Out More
+                            <i class="fas fa-angle-double-right btnarrow"></i>
+                        </button></a>
+                    </div>
+                </div>
+                <div class="escapecard">
+                    <img src="img/escape3.jpg" class="escapeimg" alt="animal on trees scenery">
+                    <div class="escapecardcontent">
+                        <h4 class="escapecardheading">Exploring Wildlife</h4>
+                        <p class="escapecardparagraph">1 Week all inclusive.</p>
+                        <p class="escapeprice">&#163; 2000.00</p>
+                        <a href="escapes.html"><button class="escapecardbutton">
+                            Find Out More
+                            <i class="fas fa-angle-double-right btnarrow"></i>
+                        </button></a>
+                    </div>
+                </div>
+                <div class="escapecard">
+                    <img src="img/escape4.jpg" class="escapeimg" alt="sea side scenery">
+                    <div class="escapecardcontent">
+                        <h4 class="escapecardheading">Swimming in South Africa</h4>
+                        <p class="escapecardparagraph">1 Week all inclusive.</p>
+                        <p class="escapeprice">&#163; 1500.00</p>
+                        <a href="escapes.html"><button class="escapecardbutton">
+                            Find Out More
+                            <i class="fas fa-angle-double-right btnarrow"></i>
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="escapesbuttonwrapper">
+                <a href="escapes.html"><button class="escapesbutton">Check All Escapes</button></a>
+            </div>
+        </section> 
+    
+        <!--========== experiencers ==========-->
+        <section class="customers" id="experiencers">
+            <div class="customerheader">
+                <h1 class="customerheading">Experiencers</h1>
+                <div class="lines">
+                    <div class="smalllines"></div>
+                    <div class="biglines"></div>
+                </div>
+            </div>
+    
+            <p class="customersparagraph">
+                <!-- text from https://www.thecitysidewalks.com/blog/touristvstraveler -->
+                There are two main types of 
+                people who travel&#058; travelers and tourists. While neither is 
+                inherently bad or good&#044; they possess very different 
+                characteristics that ultimately give them completely 
+                different experiences while venturing out into the world.
+                These Escapes are for travelers.</p>
+    
+            <div class="customerscardwrapper">
+                <div class="customercard">
+                    <div class="customerimagewrapper">
+                        <img src="img/customer1.jpg" class="customerimage">
+                    </div>
+                    <div class="customerinfo">
+                        <h3 class="customerfullname">Sandra Brown</h3>
+                        <p class="customerparagraph1">Happy Experiencer</p>
+                        <p class="customerparagraph2">
+                            <!-- text from https://www.my-travel-experience.com/about/ -->
+                            &#034;Travelling is like drugs. 
+                            We need more and more and soon Europe was not 
+                            enough for me and I began to ponder over travelling 
+                            to Asia. Escapes helped me to achieve my dreams 
+                            by planning the experience of a lifetime.&#034;</p>
+                    </div>
+                </div>
+                <div class="customercard">
+                    <div class="customerimagewrapper">
+                        <img src="img/customer2.jpg" class="customerimage">
+                    </div>
+                    <div class="customerinfo">
+                        <h3 class="customerfullname">Laura Cooper</h3>
+                        <p class="customerparagraph1">Happy Experiencer</p>
+                        <p class="customerparagraph2">
+                            <!-- text from https://birdtravel.wixsite.com/backpackgoal/2 -->
+                            &#034;My traveling style is backpack traveling because 
+                            it makes everything easier. I can sleep anywhere 
+                            I want&#044; I can go everywhere I want and I can do everything 
+                            that I want. Escapes helped me planning the best routes ever.&#034;</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    
+         <!--========== footer ==========-->
+         <footer class="footer">
+            <div class="designer">
+                <div class="textright">
+                    <p>Made With <i class="fas fa-heart"></i> by Monica D'Agosto</p>
+                </div>
+            </div>
+        </footer> 
+      
+    </body>
+    </html>

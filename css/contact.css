@@ -1,0 +1,440 @@
+/*=============== body ===============*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*=============== sidebar =============== */
+ .sidebar {
+    width: 5rem;
+    height: 100%;
+    background-color: rgb(217, 235, 238);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.sidebarmenu {
+    margin-top: 3rem;
+    cursor: pointer;
+}
+
+.line {
+    height: .2rem;
+    width: 2.5rem;
+    background-color: gray;
+    margin-bottom: .6rem;
+}
+
+.line1, .line3 {
+    width: 1.8rem;
+    transition: all .4s;
+}
+
+.sidebarmenu:hover .line {
+    width: 2.5rem;
+}
+
+.socialmedia {
+    list-style: none;
+    padding: 0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: auto;
+}
+
+.socialmedialist {
+    font-size: 2rem;
+    color: gray;
+    transition: color .3s;
+}
+
+.socialmedialist:hover {
+    color: gold;
+} 
+
+/*===============navbar===============*/
+.navbar {
+    margin-left: -3rem;
+    position: fixed;
+    left: -32rem;
+    width: 20rem;
+    height: 100%;
+    background-color: rgba(24, 24, 22, 0.9);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    transition: left .8s cubic-bezier(1, 0, 0, 1);
+    font-family: 'Russo One', sans-serif;
+}
+
+.navbarheading {
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: gold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.navbarsearch {
+    position: relative;
+}
+
+.navbarsearchinput {
+    width: 15rem;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 1.6rem;
+    color: gold;
+    letter-spacing: .1rem;
+    outline: none;
+    border: .1rem solid rgb(48, 47, 47);
+    border-radius: 10rem;
+    transition: background-color .3s;
+}
+
+.navbarsearchinput:focus {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.navbarsearchbtn {
+    border: none;
+    background-color: transparent;
+    color: gold;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.navbarsearchbtn:focus {
+    outline: none;
+}
+
+.navbarlist {
+    list-style: none;
+    padding: 0;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 15rem;
+}
+
+.navbarpos {
+    position: relative;
+}
+
+.navbarlink {
+    color: goldenrod;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.navbarlink:hover {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+
+.checkbox:checked ~ .navbar {
+    left: 8rem;
+}
+
+.checkbox:checked ~ .sidebar .line1 {
+    transform: rotate(-405deg) translate(-5px, 6px);
+    width: 2.5rem;
+}
+
+.checkbox:checked ~ .sidebar .line2 {
+    opacity: 0;
+}
+
+.checkbox:checked ~ .sidebar .line3 {
+    transform: rotate(405deg) translate(-5px, -6px);
+    width: 2.5rem;
+} 
+
+/*=============== contact ===============*/
+.contactus {
+    margin-left: 5rem;
+}
+
+.maincontact {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: rgb(32, 32, 32);
+    padding: 4rem;
+    /* height: 80vh; */
+}
+
+.contactheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: goldenrod;
+    margin: 1rem 0 3rem 0;
+}
+
+.contactlist {
+    list-style: none;
+    padding: 0;
+}
+
+.contactlistitem {
+    margin-bottom: 2rem;
+}
+
+.contactlistlink {
+    font-size: 1rem;
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+
+.contact p {
+    font-size: 1rem;
+    color: rgb(187, 187, 187);
+    margin-bottom: 1rem;
+}
+
+.contactform {
+    display: flex;
+}
+
+.contactinput1 {
+    width: 10rem;
+    height: 15rem;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(68, 68, 68);
+    outline: none;
+}
+
+.contactinput2 {
+    width: 10rem;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(68, 68, 68);
+    outline: none;
+}
+
+.contactbutton {
+    padding: 1rem;
+    background-color: #b85d1c;
+    color: rgb(221, 221, 221);
+    border: none;
+}
+
+.gallery {
+    margin-left: 5rem;
+    background-color: rgb(32, 32, 32);
+}
+
+.galleryimagewrapper {
+    width: 18rem;
+    height: 14rem;
+    margin: .4rem;
+    overflow: hidden;
+}
+
+.galleryimage {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: all .5s;
+}
+
+.galleryimages {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.galleryimage:hover {
+    transform: scale(1.3);
+    opacity: .8;
+}
+
+/*=============== footer ===============*/
+.footer {
+    margin-left: 5rem;
+}
+
+.designer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    padding: 0 4rem;
+}
+
+.textright {
+    font-size: 1rem;
+    color: rgb(187, 187, 187);
+    margin-left: 20%;
+}
+
+.textright i {
+    font-size: 1rem;
+    margin: .5rem;
+    color: rgb(255, 99, 71);
+}
+
+/*========================= @media =========================*/
+
+/*=============== min 768===============*/
+@media only screen and (min-width: 768px) {
+
+    .galleryimagewrapper {
+        width: 20rem;
+        height: 20rem;
+       }
+
+    .galleryimages {
+        flex-direction: row;
+    }
+
+    .contactheading {
+        font-size: 2.5rem;
+      }
+    
+      .contactlistlink {
+        font-size: 1.4rem;
+       }
+    
+       .contact p {
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+       }
+        
+       .contactinput1 {
+        width: 25rem;
+        height: 20rem;
+        font-size: 1.8rem;
+       }
+    
+       .contactinput2 {
+        width: 25rem;
+        font-size: 1.8rem;
+       }
+  }
+/*=============== min 1024 ===============*/
+@media only screen and (min-width: 1024px) {
+  .sidebar {
+      width: 8rem;
+  }
+
+  .socialmedia {
+      margin-top: 20rem;
+  }
+
+  .navbar {
+      left: -50rem;
+      width: 50rem;
+  }
+
+  .navbarheading {
+      font-size: 5rem;
+      letter-spacing: .3rem;
+      margin-top: 10rem;
+      margin-bottom: 5rem;
+  }
+
+  .navbarsearchinput {
+      width: 25rem;
+  }
+
+  .navbarlist {
+      height: 20rem;
+      margin-top: 10rem;
+  }
+  
+  .navbarlink {
+      font-size: 2.3rem;
+      font-weight: 200;
+  }
+
+  .navbarlink:hover {
+    font-size: 2.5rem;
+  }
+
+  .contactus {
+    margin-left: 8rem;
+  }
+
+  .maincontact {
+    height: 65vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+   .gallery {
+    margin-left: 8rem;
+   }
+
+   .galleryimagewrapper {
+    width: 14rem;
+    height: 14rem;
+   }
+
+  .footer {
+    margin-left: 8rem;
+   }
+
+   .textright {
+    font-size: 1rem;
+    color: rgb(187, 187, 187);
+    margin-left: 80%;
+}
+}
+/*=============== min 1400 ===============*/
+
+@media only screen and (min-width: 1400px) {
+  .sidebar {
+      width: 8rem;
+      justify-content: space-between;
+  }
+  
+  .socialmedia {
+      margin-top: 0;
+  }
+
+  .navbarlink {
+  font-weight: 300;
+  letter-spacing: .3rem;
+  line-height: 5rem;
+  }
+
+  .navbarlist {
+      margin-top: 4rem;
+  }  
+
+}
