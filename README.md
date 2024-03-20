@@ -27,4 +27,4 @@ Please follow the link below.
 <h2>Problems:</h2> Although the images have been optimised for the internet, it takes a few seconds to download all of them.
 
 <h2>This is the live version:</h2>
-https://monartlondon.github.io/HolidaysAfterPandemic/
+https://monidago.github.io/HolidaysAfterPandemic/
